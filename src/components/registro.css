@@ -1,0 +1,97 @@
+div.context {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.box2 {
+    width: 60%;
+    height: 80%;
+    background-color: rgb(204, 205, 206);
+    box-shadow: 0 0 20px black;
+    border-radius: 30px;
+}
+
+/*TITULO*/
+section.registro {
+    width: 100%;
+    height: 20%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 132, 1);
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+/*FORMULARIO*/
+form.form2 {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label.input {
+    width: 70%;
+    height: 40%;
+    margin-top: 10px;
+}
+
+input.user {
+    width: 90%;
+    height: 70%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+input.pass {
+    width: 90%;
+    height: 70%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+input.rol {
+    width: 90%;
+    height: 70%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+}
+select{
+    width:65%;
+    height:25%;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+article.permisos{
+    width:65%;
+    height:40%;
+    background-color:white;
+    border-radius: 15px;
+    margin: 15px;
+}
+h5{
+    margin: 5px;
+    text-align: left;
+    margin-left: 10px;
+}
+/*BOTON*/
+button.btn {
+    width: 40%;
+    height: 20%;
+    background-color: goldenrod;
+}
