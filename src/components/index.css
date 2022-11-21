@@ -1,87 +1,140 @@
 div.container {
     width: 100%;
     height: 100%;
-    background-color: rgb(99, 99, 99);
+    background-image: url(../components/img/0ef991f2717180cab94c1abc57072b6f.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div.box {
-    width: 60%;
-    height: 40%;
-    background-color: rgb(204, 205, 206);
-    box-shadow: 0 0 20px black;
+div.-box{
+    width: 70%;
+    height: 60%;
+    background-color:white;
+    display: flex;
     border-radius: 30px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0);
+}
+
+div.-box1{
+    width: 50%;
+    height: 100%;
+    background: #1FA2FF;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 30px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1.welcome{
+    font-size:40px;
+    text-align: left;
+    color: #fff;
+}
+div.-box2 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 30px 30px 0px;
 }
 
 /*TITULO*/
 section.titulo {
     width: 100%;
     height: 20%;
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(34, 163, 73);
-    border-radius: 10px;
+    border-radius: 0px 30px 0px 0px;
 }
 
-h1 {
+h1.title{
     margin: 0px;
-    font-size: 50px;
+    font-size: 40px;
+    /* color: rgb(255, 255, 255); */
 }
 
 /*FORMULARIO*/
-form.form {
+form.form{
     width: 100%;
     height: 60%;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-label {
-    width: 70%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+label.index {
+    width: 80%;
+    height: 20%;
+    margin-bottom:45px;
 }
 
 input.usuario {
     width: 90%;
-    height: 60%;
-    margin-bottom: 15px;
-    border-radius: 15px;
+    height: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 5px 20px 0px rgb(104, 128, 207);
     border: none;
 }
 
 input.password {
     width: 90%;
-    height: 60%;
-    margin-bottom: 15px;
-    border-radius: 15px;
+    height: 100%;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    box-shadow: 0px 5px 20px 0px rgb(104, 128, 207);
     border: none;
 }
 
 /*BOTON*/
-button {
-    background-color: rgb(34, 163, 73);
+button.enter {
+    background: #1FA2FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
     width: 40%;
-    height: 20%;
-    border-radius: 15px;
-    color: white;
+    height: 15%;
+    border-radius: 30px;
+    box-shadow: 0px 12px 20px 0px rgb(104, 128, 207);
 }
 
 @media (min-width: 1200px) {
-    div.box {
-        width: 30%;
-        height: 40%;
-        background-color: rgb(204, 205, 206);
-        box-shadow: 0 0 20px black;
+div.-box {
+        width: 50%;
+        height: 70%;
+        background-color: white;
+        display: flex;
         border-radius: 30px;
+        box-shadow: 0 15px 20px rgb(0, 0, 0);
+    }
+    h1.welcome{
+        font-size: 60px;
+    }
+    h1.title{
+        font-size: 60px;
+    }
+    form.form{
+        margin-top:20%;
+        height:50%;
+    }
+    button.enter{
+        height:20%;
     }
 }
